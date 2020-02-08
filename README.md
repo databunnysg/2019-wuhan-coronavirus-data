@@ -12,7 +12,7 @@ Add Simple R based analysis and visualization for nCov 2019.
 
 How to use:
 Run load.R under R folder.
-
+![image](plot_zoom_png.png)
 ## Sources used
 
 ### [BNO](https://bnonews.com/index.php/2020/01/the-latest-coronavirus-cases/)
