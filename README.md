@@ -8,58 +8,10 @@ It is hoped that this data will be useful to those producing visualizations or a
 
 Code is included.
 
-## Sample animation
+Add Simple R based analysis and visualization for nCov 2019.
 
-Shown here in GIF format. There is a better (smaller/higher resolution) webm format also generated.
-
-![image](data-sources/dxy/data/latest-animation.gif)
-
-## Sample visualization
-
-![image](data-sources/dxy/data/20200208-150144-dxy-2019ncov-data.svg)
-
-![image](data-sources/bno/data/20200204-205200-bno-2019ncov-data.svg)
-
-Generates static SVGs. 
-
-Source images were `China_blank_province_map.svg`([link](https://commons.wikimedia.org/wiki/File:China_blank_province_map.svg)) and `BlankMap-World.svg`([link](https://commons.wikimedia.org/wiki/File:BlankMap-World.svg)).
-
-## Requirements
-
-Unix-like OS with the dependencies installed (see [Software Dependencies](#software-dependencies)). In practice that means macOS with brew, Linux or a BSD. Windows is unsupported.
-
-## Generating
-
-### China
-
-For a China map, the following command sequence will grab data from DXY and render it.
-
-```
-./build china
-```
-
-You now have timestamped JSON, CSV and SVG files in the `data-sources/dxy/data/` subdirectory.
-
-### World
-
-For a world map, the process is similar. __Note that the BNO world data parser is currently broken and we have no plan to fix it.__
-
-```
-./build world
-```
-
-You now have timestamped CSV and SVG files in `data-sources/bno/data`.
-
-## Software Dependencies
-
-Probably an incomplete list:
- * bash
- * perl
- * php
- * imagemagick
- * gifsicle
- * ffmpeg
- * wget
+How to use:
+Run load.R under R folder.
 
 ## Sources used
 
